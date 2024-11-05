@@ -19,17 +19,24 @@ public class Calculator {
     }
     public static void main(String[]args){
         Calculator calc = new Calculator();
+
+        //메인화면
         Scanner sc = new Scanner(System.in);
         System.out.println("                                                                             ");
         System.out.println("****************************************************************************");
         System.out.println("@@@@@계산기@@@@@");
         System.out.println("****************************************************************************");
         System.out.println("                                                                             ");
-        System.out.println("계산할 첫번째 숫자 적으쇼");
+
+        //숫자입력
+        System.out.println("계산할 첫번째 숫자 적으쇼");//1번
         int num = sc.nextInt();
 
-        System.out.println("계산할 두번째 숫자 적으쇼");
+        System.out.println("계산할 두번째 숫자 적으쇼");//2번
         int num2 = sc.nextInt();
+
+
+        //메뉴
         System.out.println("                                              ");
         System.out.println("계산식 메뉴 고르쇼 ( 1~4 )");
         System.out.println("1.더하기 ");
@@ -38,6 +45,8 @@ public class Calculator {
         System.out.println("4.곱하기 ");
         int mu = sc.nextInt();
         System.out.println("                                              ");
+
+
         switch(mu){
                 case 1:
                     System.out.println(num+" + "+num2+ " = "+calc.add(num, num2));
