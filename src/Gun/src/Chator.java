@@ -1,3 +1,8 @@
+package Gun.src;
+
+import java.util.*;
+
+
 public class Chator {
     int hp = 100;
 

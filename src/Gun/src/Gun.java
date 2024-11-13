@@ -1,4 +1,4 @@
-package Gun;
+package Gun.src;
 
 public class Gun {
     int[] range = new int[2];
